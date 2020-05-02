@@ -1,0 +1,17 @@
+{
+    "name": "Relative Line Numbers for CodePen",
+    "version": "1.0",
+    "description": "Relative line numbers for the CodePen IDE and any sites using CodeMirror as their editor.",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ]
+}
