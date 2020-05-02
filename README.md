@@ -1,5 +1,7 @@
 # CodePen - Relative Line Numbers (Vim / CodeMirror)
 
+## Background 
+
 As a web developer I love using Vim, and have started using CodePen regularly. CodePen has Vim integration, which is great, it uses something called CodeMirror for that job. The issue I have is it doesn't have relative line numbers, which, for me, is a vital tool for navigating around and cutting/copying/traversing lines.
 
 The solution is this Chrome Extension which looks for the existence of CodeMirror on the page and if it exists, it activates the relative line number script provided in 2018 in the following [feature request](https://github.com/codemirror/CodeMirror/issues/4116). It appears that the project is currently not accepting any additional features, therefore this is unlikely to ever be added, so this extension should do the trick!
